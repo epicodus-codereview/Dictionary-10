@@ -13,6 +13,13 @@ describe(Word) do
     end
   end
 
+  describe('#descriptions') do
+  it("initially returns an empty array of descriptions for the words") do
+    test_word = Word.new("flower")
+    expect(test_word.descriptions()).to(eq([]))
+  end
+end
+
   describe(".all") do
     it("creates an empty array at first") do
       expect(Word.all()).to(eq([]))
