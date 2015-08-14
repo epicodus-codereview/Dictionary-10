@@ -1,22 +1,29 @@
 # _Dictionary_
 
-##### _Dictionary with Two classes, 8/14/2015_
+##### _Dictionary with Two Classes, 8/14/2015_
 
 #### By _**Yelena Nedelko**_
 
 ## Description
 
-_The goal of this application was to make two classes: one for Word, and one for Definition. The homepage of the app should list out all of the words, and let you click on them to view all of their definitions. A user should be able to add a word, and when viewing a word, be able to add one or more definitions._
+_The goal of this application was to make a storage for a Dictionary. The code has two classes: one for Word, and one for Definition. The homepage of the app lists all words added by the user. A user will be able to add a word, and when viewing a word, will be able to add one or more definitions._
+
+## Link to Heroku:
+
+_Please view the live site here: https://calm-basin-8344.herokuapp.com/_
 
 ## Setup
 
-* _bundle_
-* _ruby app.rb_
+* _clone repository_
+* _$ bundle_
+* _$ ruby app.rb_
 
 
 ## Technologies Used
 
+* _Ruby v2.2.2_
 * _Sinatra_
+* _Bootstrap_
 
 
 ### Legal
