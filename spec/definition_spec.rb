@@ -42,3 +42,21 @@ describe(".clear") do
   expect(Definition.all()).to(eq([]))
   end
 end
+
+describe("#id") do
+  it("returns the id of the definition") do
+    test_definition = Definition.new("noun", "moister condensed from the atmosphere")
+    test_definition.save()
+    expect(test_definition.id()).to(eq(1))
+  end
+end
+
+describe(".find") do
+  it("returns the definition based on id") do
+    test_definition = Definition.new("noun", "moister condensed from the atmosphere")
+    test_definition.save()
+    test_definition2 = Definition.new("verb", "give out bright light")
+    test_definition2.save()
+    expect(Definition.find(test_definition.id())).to(eq(test_definition))
+  end
+end
