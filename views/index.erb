@@ -1,7 +1,15 @@
 <h1>Welcome to this Site!</h1>
-<h2>It's full of words and definitions!</h2>
+<h2>Please help make it full of words and definitions</h2>
+
+<h4>Start off by adding your favorite word:</h4>
+<ul>
+  <li><a href="/words/new">Add A Word</a></li>
+</ul>
+
+<h4>As you add words to the site, they will appear below. Click on the words and add as many definitions as you'd like.</h4>
 
 <ul>
-  <li><a href="/words">See A List of All The Words</a></li>
-  <li><a href="/words/new">Add A New Word</a></li>
+  <% @words.each() do |word| %>
+    <li><a href="/words/<%= word.id() %>"><%= word.name() %></a></li>
+  <% end %>
 </ul>

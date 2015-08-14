@@ -5,6 +5,7 @@ require('./lib/definition')
 require('./lib/word')
 
 get('/') do
+  @words = Word.all()
   erb(:index)
 end
 

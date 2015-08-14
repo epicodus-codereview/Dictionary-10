@@ -1,4 +1,4 @@
-<h2>Here are all the definitions for this word:</h2>
+<h2>Here are all the definitions for this word so far:</h2>
 
 <ul>
   <% @word.descriptions().each() do |description| %>
@@ -6,4 +6,6 @@
   <% end %>
 </ul>
 
-<a href="/words/<%= @word.id%>/definitions/new">Add a new definition</a>
+<h4>Make a contribution:</h4>
+<a href="/words/<%= @word.id%>/definitions/new">Add a new definition here!</a>
+<h4>Once added, your definition will be added to the list at the top of the page.</h4>
