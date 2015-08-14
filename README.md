@@ -1,32 +1,27 @@
-# _{Application Name}_
+# _Dictionary_
 
-##### _{Brief description of application}, {Date of current version}_
+##### _Dictionary with Two classes, 8/14/2015_
 
-#### By _**{List of contributors}**_
+#### By _**Yelena Nedelko**_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
+_The goal of this application was to make two classes: one for Word, and one for Definition. The homepage of the app should list out all of the words, and let you click on them to view all of their definitions. A user should be able to add a word, and when viewing a word, be able to add one or more definitions._
 
 ## Setup
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _bundle_
+* _ruby app.rb_
 
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _Sinatra_
+
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
-
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **_Yelena Nedelko_**
 
 This software is licensed under the MIT license.
 
