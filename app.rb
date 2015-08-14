@@ -27,7 +27,7 @@ end
 
 get('/definitions') do
   @definitions = Definition.all
-  erb(:definitions)
+  erb(:definition)
 end
 
 get('/definitions/new') do
